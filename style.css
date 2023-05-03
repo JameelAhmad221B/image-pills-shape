@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #FFF0F0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul > li > img {
+    margin: 1rem;
+    border-radius: 90px;
+}
+
+ul > li > .two {
+    transform: translateY(15%);
+}
